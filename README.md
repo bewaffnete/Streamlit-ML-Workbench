@@ -71,19 +71,9 @@ Environment variables:
 - Model loading in the UI requires explicit trust confirmation.
 - Project settings import uses strict schema validation and safe parsing (`yaml.safe_load`).
 
-## Testing
-
-```bash
-pytest -q
-```
 
 ## Troubleshooting
 
 - `ModuleNotFoundError`: verify venv is activated and `pip install -r requirements.txt` completed.
 - App feels slow on very large data: enable sampling in Upload tab and reduce selected features/models.
 - Training takes too long: disable tuning, lower iterations, and reduce model count.
-
-## Deployment Notes
-
-- Streamlit Community Cloud: push `app.py` + pinned `requirements.txt`.
-- Self-hosting: run behind HTTPS reverse proxy and enforce auth at the edge.
