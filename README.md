@@ -12,8 +12,7 @@ A practical no-code/low-code ML app for:
 ## Quick Start
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+git clone https://github.com/bewaffnete/Streamlit-ML-Workbench.git
 pip install -r requirements.txt
 streamlit run app.py
 ```
