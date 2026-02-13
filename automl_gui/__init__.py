@@ -1,0 +1,1 @@
+"""AutoML Streamlit application package."""
