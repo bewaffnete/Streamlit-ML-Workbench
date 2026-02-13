@@ -7,8 +7,7 @@ A practical no-code/low-code ML app for:
 - Training and comparing models
 - Exporting predictions and model artifacts
 
-![Uploading example.gif…]()
-
+![example](https://github.com/user-attachments/assets/6e22bf88-1f64-4761-b5be-9734d45dc3ad)
 
 
 ## Quick Start
